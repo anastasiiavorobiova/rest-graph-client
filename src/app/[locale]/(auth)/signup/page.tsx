@@ -32,6 +32,8 @@ export default function SignUp() {
     if (data) {
       createUserWithEmailAndPassword(auth, data.email, data.password)
         .then(() => {
+          // TODO: add name and icon
+
           router.push('/signin');
         })
         .catch(() => {
