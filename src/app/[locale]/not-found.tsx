@@ -4,7 +4,7 @@ import { Container, Title, Text, Button, Group, NotFoundIcon } from '@/shared/ui
 import styles from './NotFound.module.css';
 
 export default function NotFoundPage({ reset }: { reset: () => void }) {
-  const t = useTranslations('Error.404');
+  const t = useTranslations('NotFound');
 
   return (
     <Container className={styles.root}>

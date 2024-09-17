@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl';
 import styles from './ErrorPage.module.css';
 
 export function ErrorPage({ reset }: { reset: () => void }) {
-  const t = useTranslations('Error.500');
+  const t = useTranslations('ErrorPage');
 
   return (
     <Container className={styles.root}>
