@@ -1,0 +1,98 @@
+{
+  "Main": {
+    "content": "На головну",
+    "welcome-image": "Вітаємо",
+    "welcome-title": "Раді вас бачити",
+    "welcome-text": "Авторизуйтеся будь ласка, щоб використовувати REST та GraphQL клієнт",
+    "welcome-text-user": "Можна починати робити запити",
+    "hello": "Вітаємо",
+    "user": "Користувач",
+    "sign-up": "Зареєструватися",
+    "sign-in": "Увійти",
+    "rest": "REST",
+    "graphiql": "GraphQL",
+    "history": "Істрорія"
+  },
+  "Header": {
+    "langs": {
+      "en": "Англійська",
+      "ua": "Українська",
+      "de": "Німецька"
+    },
+    "home": "Головна",
+    "history": "Істроія",
+    "sign-up": "Зареєструватись",
+    "sign-in": "Увійти",
+    "log-out": "Вийти"
+  },
+  "Footer": {
+    "creators": "Створено",
+    "rss-sign": "© RSSchool 2024"
+  },
+  "Forms": {
+    "forgot_password": "Відновити пароль",
+    "invalid_email": "Невалідна пошта",
+    "email": "Ваш email",
+    "your-email": "ВашEmail@email.com",
+    "submit-reset": "Відправити",
+    "signup": "Зареєструватись",
+    "password": "Ваш пароль",
+    "name": "Імʼя",
+    "signin": "Увійти",
+    "forgot-question": "Забули пароль?",
+    "invalid-password": "Невалідний пароль",
+    "sign-in-with-google": "Увійти за допомогою Google",
+    "not-member-question": "Не зареєстровані?",
+    "has-number": "Є цифра",
+    "has-letter": "Є буква",
+    "has-special-char": "Є спеціальний символ",
+    "has-length": "Має довжину від 8 символів",
+    "error-signin": "Ой! Щось пішло не так. Не можу увійти",
+    "error-signup": "Ой! Щось пішло не так. Не можу зареєструватися"
+  },
+  "NoResponse": {
+    "msg": "Ви ще не виконували жодного запиту. Тут пусто. Спробуйте: ",
+    "rest": "REST Клиент",
+    "graphiql": "GraphQL Клиент"
+  },
+  "REST": {
+    "invalid-url": "Невірний URL",
+    "title": "REST Клієнт",
+    "request-data": "Дані запиту",
+    "response": "Відповідь",
+    "body-format": "Формат тіла запиту",
+    "string": "Рядок",
+    "headers": "Хедери",
+    "query": "Параметри пошуку",
+    "send": "Відправити",
+    "method": "Метод",
+    "url": "URL",
+    "body": "Тіло",
+    "invalid-json": "Невалідний JSON",
+    "invalid-metod": "Невалідний метод",
+    "header-key": "Ключ",
+    "header-value": "Значення",
+    "status": "Статус код",
+    "plus": "Додати",
+    "close": "Видалити",
+    "string-to-json-error": "Не можливо конвертувати тіло запиту в JSON формат",
+    "request-fail": "Не вдалося зробити запит, спробуйте пізніше.",
+    "reset": "Очистити"
+  },
+  "History": {
+    "title": "Історія запитів",
+    "not-history": "Ви не створили жодного запиту. Тут пусто. Спрбуйте: ",
+    "rest": "REST",
+    "graphiql": "GraphQL",
+    "date": "Дата",
+    "method": "Метод",
+    "url": "Посилання"
+  },
+  "Error": {
+    "404": {
+      "title": "Схоже, Ви заблукали.",
+      "heading": "Веб сторінку не знайдено. Можливо, ви шукали щось інше?",
+      "back": "Повернутись"
+    }
+  }
+}
