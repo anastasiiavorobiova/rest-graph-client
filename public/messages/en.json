@@ -91,8 +91,13 @@
   "Error": {
     "404": {
       "title": "Looks like you're lost.",
-      "heading": "This page not found. Perhaps you were looking for something else?",
+      "text": "This page not found. Perhaps you were looking for something else?",
       "back": "Back"
+    },
+    "500": {
+      "title": "Something bad just happened...",
+      "text": "Our servers could not handle your request. Don't worry, try refreshing the page.",
+      "button": "Refresh the page"
     }
   }
 }

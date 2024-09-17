@@ -15,7 +15,7 @@ export default function NotFoundPage({ reset }: { reset: () => void }) {
             {t('title')}
           </Title>
           <Text c="dimmed" size="lg" ta="center" className={styles.description} data-testid="NotFoundTitle">
-            {t('heading')}
+            {t('text')}
           </Text>
           <Link href="/">
             <Group justify="center">
