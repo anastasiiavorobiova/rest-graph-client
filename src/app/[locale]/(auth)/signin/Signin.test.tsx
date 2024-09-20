@@ -11,6 +11,7 @@ describe('Signin page', () => {
   test('Renders form', async () => {
     vi.mock('next/navigation');
     vi.mock('@/features/localeSwitcher');
+    vi.mock('next-auth/react');
 
     const auth = await import('next-auth/react');
 

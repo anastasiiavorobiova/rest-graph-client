@@ -1,4 +1,4 @@
-import { authOptions } from '@/features/authSwitcher';
+import { authOptions } from '@/features/auth';
 import { getServerSession } from 'next-auth';
 import { redirect } from '@/features/localeSwitcher';
 

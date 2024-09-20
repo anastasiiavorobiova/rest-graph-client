@@ -20,6 +20,7 @@ export {
   Textarea,
   Loader,
   ActionIcon,
+  Modal,
   type SelectProps,
 } from '@mantine/core';
 export { Logo } from './Logo';

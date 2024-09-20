@@ -1,9 +1,9 @@
 'use client';
 
 import { signOut, useSession } from 'next-auth/react';
+import { useTranslations } from 'next-intl';
 import { Button, Group } from '@/shared/ui';
 import { useRouter } from '@/features/localeSwitcher';
-import { useTranslations } from 'next-intl';
 
 export function AuthSwitcher() {
   const router = useRouter();

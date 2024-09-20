@@ -8,6 +8,9 @@ const nextConfig = {
   env: {
     BASE_URL: process.env.BASE_URL,
   },
+  experimental: {
+    serverComponentsExternalPackages: ['firebase-admin'],
+  },
 };
 
 export default withNextIntl(nextConfig);

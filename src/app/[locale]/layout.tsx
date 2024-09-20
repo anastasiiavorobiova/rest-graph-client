@@ -5,7 +5,7 @@ import { ToastProvider } from '@/features/toast';
 import Header from '@/widgets/Header';
 import Footer from '@/widgets/Footer';
 import LocaleSwitcher from '@/features/localeSwitcher';
-import { AuthSwitcher, SessionWrapper } from '@/features/authSwitcher';
+import { AuthSwitcher, SessionWrapper } from '@/features/auth';
 import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 import '@mantine/core/styles.css';
 import './globals.css';
@@ -17,9 +17,11 @@ export const metadata: Metadata = {
 
 export default async function RootLayout({
   children,
+  authmodal,
   params: { locale },
 }: Readonly<{
   children: React.ReactNode;
+  authmodal: React.ReactNode;
   params: { locale: string };
 }>) {
   const messages = await getMessages();
@@ -41,6 +43,7 @@ export default async function RootLayout({
                   </Header>
                 </header>
                 <main>{children}</main>
+                {authmodal}
                 <footer>
                   <Footer />
                 </footer>

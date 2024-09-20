@@ -16,6 +16,8 @@ body {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   background: var(--white);
   min-height: 100vh;
   height: 100%;
